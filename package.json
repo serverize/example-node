@@ -1,6 +1,7 @@
 {
   "name": "node",
   "type": "module",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "npx esbuild src/index.ts --bundle --outfile=dist/index.js --platform=node"
